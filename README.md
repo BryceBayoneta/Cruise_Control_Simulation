@@ -4,12 +4,12 @@ Behavior is modeled using differential equations solved with ode45
 
 Features
 - Allows for custom values for:
--   Mass
--   Target Velocity
--   Initial Velocity
--   Drag
--   Control Strength
--   Simulation Time
+  - Mass
+  - Target Velocity
+  - Initial Velocity
+  - Drag
+  - Control Strength
+  - Simulation Time
 - Uses Newton's second law to solve vehicle dynamics with drag
 - Creates plot of velocity over time
 - Determines key values such as rise time (first time to reach target speed), settling time (time to reach and stay at target speed), overshoot (maximum velocity above target), and error (difference between steady state velocity and target)
